@@ -1,0 +1,8 @@
+Retrieved record:
+{"name":"guppy","importedFrom":"Turkey","importPrice":2.5,"salePrice":5.5,"isInStock":true}
+Updated record:
+{"name":"guppy","importedFrom":"Turkey","importPrice":2.5,"salePrice":6.5,"isInStock":true}
+Try to retrieve deleted data:
+null
+
+Process finished with exit code 0

@@ -1,0 +1,28 @@
+Task 1:
+work
+weekend
+no such day
+Task2:
+Bank 1 (with no initial balance):
+Your balance is: 0.0
+Your balance is: 6014.0
+Your balance is: 6000.0
+Bank 2 (with initial balance):
+Your balance is: 1000.0
+Task 3:
+Hi, Mr. Akgul! What a nice surname indeed!
+Hi, John Smith! I am not sure if that is your real name or a joke... :S
+Welcome, Isimsiz Adam!
+Task 4 (adds 1 to n 4 times):
+5
+Task5:
+Student tax:
+You should pay: 0
+Teacher tax:
+You should pay: 350.0
+Employee tax:
+You should pay: 700.0
+Employee and Student tax:
+You should pay: 0
+Student and Employee tax:
+You should pay: 200.0

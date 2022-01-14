@@ -1,0 +1,29 @@
+Task 1:
+Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+Saturday, Sunday
+Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+Task 2:
+Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+Sunday, Saturday, Friday, Thursday, Wednesday, Tuesday, Monday
+Task 3:
+Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+Task 4:
+Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+Saturday, Sunday
+Task 5:
+Map(dog_food -> 9.0, fish_food -> 4.5, cat_food -> 8.1)
+Task 6:
+List(2, 3, 4, 5, 6, 7)
+Task 7:
+List(1.2, 3.0, 3.443, 0.0, 0.342)
+Task 8:
+(test,false,5)
+Task 9
+List(123.0, 3.0)
+Task 10
+10
+Shipment is free for dog_food.
+Sorry, deer_food does not exist!
+
+Process finished with exit code 0

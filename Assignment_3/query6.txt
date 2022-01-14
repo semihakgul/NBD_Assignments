@@ -1,0 +1,4 @@
+match(person:Person)-[:ACTED_IN]->(movie:Movie)
+with person,count((movie.title)) as CountOfMovie
+where CountOfMovie>0
+return person.name, CountOfMovie

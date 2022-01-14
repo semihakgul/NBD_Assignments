@@ -1,0 +1,4 @@
+MATCH p= (n:town {name:'Darjeeling'})-[* {summer:"true"}]->(m)
+with p,relationships(p) as r
+WHERE  all(r IN relationships(p) WHERE type(r)='twowheeler')
+return p

@@ -1,0 +1,2 @@
+match(person:Person)-[:DIRECTED]->(movie:Movie)<-[:WROTE]-(person)
+return person,movie

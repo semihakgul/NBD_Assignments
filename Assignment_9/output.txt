@@ -1,0 +1,11 @@
+Task 1:
+1000
+Task 2:
+true
+true
+Task 3:
+No@d7b1517
+some other value1
+Task 4:
+This is class NO with no content
+some other value for task 4

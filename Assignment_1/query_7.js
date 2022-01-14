@@ -1,0 +1,1 @@
+db.collection_1.deleteMany({height:{"$gt":'190'}})

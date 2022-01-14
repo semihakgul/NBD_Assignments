@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvp/aKLkAIpTImMfKYLY1+DZfFgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s24084>; rel="up"
+Last-Modified: Wed, 12 Jan 2022 20:25:26 GMT
+ETag: "1SmTZy0fDBPAErHTwsnIhD"
+Date: Wed, 12 Jan 2022 20:26:38 GMT
+Content-Type: application/json
+Content-Length: 17
+
+{"fish": "platy"}% 

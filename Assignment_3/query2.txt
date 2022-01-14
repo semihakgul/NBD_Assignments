@@ -1,0 +1,1 @@
+match(movie:Movie)<-[:ACTED_IN]-(p:Person {name:"Hugo Weaving"}) return movie

@@ -1,0 +1,1 @@
+printjson(db.collection_1.distinct("job"));

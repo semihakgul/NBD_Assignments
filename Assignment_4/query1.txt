@@ -1,0 +1,7 @@
+MATCH
+  (n:town {name: 'Darjeeling'}),
+  (m:peak {name: 'Sandakphu'})
+  with n,m
+match  p = shortestPath((n)-[*]-(m))
+WHERE all(r IN relationships(p) WHERE (r.winter) = 'true')
+RETURN p

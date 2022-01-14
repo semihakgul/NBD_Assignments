@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvp/awiULEUpkzGNluL4u+DZfFgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s24084>; rel="up"
+Last-Modified: Wed, 12 Jan 2022 19:58:15 GMT
+ETag: "1sxg8hDiplgWQpbB9T3Vdm"
+Date: Wed, 12 Jan 2022 19:59:26 GMT
+Content-Type: application/json
+Content-Length: 88
+
+{ "fish": "guppy",  "continent": "europe", "lifespan": 2, "price":10, "sold_out": false}

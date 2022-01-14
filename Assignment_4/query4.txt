@@ -1,0 +1,4 @@
+match (airport:Airport)<-[:ORIGIN]-(flight:Flight) 
+with airport,count(flight) as numberOfFlights
+return airport,numberOfFlights
+order by numberOfFlights

@@ -1,0 +1,36 @@
+   
+create (movie:Movie {title:"Captain America: The First Avenger",released:"2011",tagline:"a fake tag line" })
+
+match(movie:Movie {title:"Captain America: The First Avenger"})
+create (director:Person {name:"Joe Johnston",born:"1950"})-[:DIRECTED]->(movie)
+return director, movie
+
+match(movie:Movie {title:"Captain America: The First Avenger"})
+create (writer:Person {name:"Christopher Markus",born:"1970"})-[:WROTE]->(movie)
+return writer, movie
+
+match(movie:Movie {title:"Captain America: The First Avenger"})
+create (writer:Person {name:"Stephen McFeely",born:"1970"})-[:WROTE]->(movie)
+return writer, movie
+
+match(movie:Movie {title:"Captain America: The First Avenger"})
+create (actor:Person {name:"Chris Evans",born:"1981"})-[:ACTED_IN]->(movie)
+return actor, movie
+
+
+match(movie:Movie {title:"Captain America: The First Avenger"})
+create (actor:Person {name:"Hayley Atwell",born:"1982"})-[:ACTED_IN]->(movie)
+return actor, movie
+
+match(movie:Movie {title:"Captain America: The First Avenger"})
+create (actor:Person {name:"Sebastian Stan",born:"1982"})-[:ACTED_IN]->(movie)
+return actor, movie
+
+match(movie:Movie {title:"Captain America: The First Avenger"})
+create (actor:Person {name:"Hugo Weaving",born:"1960"})-[:ACTED_IN]->(movie)
+return actor, movie
+
+
+match(movie:Movie {title:"Captain America: The First Avenger"})
+create (actor:Person {name:"Tommy Lee Jones",born:"1946"})-[:ACTED_IN]->(movie)
+return actor, movie

@@ -1,0 +1,1 @@
+db.collection_1.find({weight:{"$gte":'68',"$lt":'71.5'}})

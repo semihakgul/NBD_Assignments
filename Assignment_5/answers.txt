@@ -1,0 +1,33 @@
+// Task 1
+curl -i -XPUT -H "Content-Type: application/json" -d '{ "fish": "goldfish",  "continent": "asia", "lifespan":15,  "price":12, "sold_out": false}' http://localhost:8098/buckets/s24084/keys/goldfish
+curl -i -XPUT -H "Content-Type: application/json" -d '{ "fish": "discus",  "continent": "america",  "lifespan": 17, "price":20, "sold_out": true}' http://localhost:8098/buckets/s24084/keys/bettafish
+curl -i -XPUT -H "Content-Type: application/json" -d '{ "fish": "catfish",  "continent": "africa",  "lifespan": 9, "price":10, "sold_out": true}' http://localhost:8098/buckets/s24084/keys/catfish
+curl -i -XPUT -H "Content-Type: application/json" -d '{ "fish": "guppy",  "continent": "europe", "lifespan": 2, "price":10, "sold_out": false}' http://localhost:8098/buckets/s24084/keys/guppy
+curl -i -XPUT -H "Content-Type: application/json" -d '{ "fish": "koi",  "continent": "asia", "lifespan": 16, "price":13, "sold_out":false}' http://localhost:8098/buckets/s24084/keys/koi
+
+// Task 2
+curl -i -XGET  http://localhost:8098/buckets/s24084/keys/koi
+
+// Task 3
+curl -i -XPUT -H "Content-Type: application/json" -d '{ "fish": "goldfish",  "continent": "asia", "lifespan":15,  "price":11, "sold_out": false, "invasive":true}' http://localhost:8098/buckets/s24084/keys/goldfish
+
+// Task 4
+curl -i -XPUT -H "Content-Type: application/json" -d '{"fish": "discus",  "continent": "america", "price":20, "sold_out": true}' http://localhost:8098/buckets/s24084/keys/koi
+
+// Task 5
+curl -i -XPUT -H "Content-Type: application/json" -d '{ "fish": "guppy",  "continent": "europe", "lifespan": 2, "price":13, "sold_out": false}' http://localhost:8098/buckets/s24084/keys/guppy
+
+// Task 6
+curl -i -XDELETE http://localhost:8098/buckets/s24084/keys/koi
+
+// Task 7
+curl -i -XGET  http://localhost:8098/buckets/s24084/keys/platy
+
+// Task 8
+curl -i -XPOST -H "Content-Type: application/json" -d '{"fish": "platy"}' http://localhost:8098/buckets/s24084/keys
+
+// Task 9
+curl -i -XGET  http://localhost:8098/buckets/s24084/keys/Xiq3kOcHZBtRfPLf5G2fL6TkYhT
+
+// Task 10
+curl -i -XDELETE http://localhost:8098/buckets/s24084/keys/Xiq3kOcHZBtRfPLf5G2fL6TkYhT
